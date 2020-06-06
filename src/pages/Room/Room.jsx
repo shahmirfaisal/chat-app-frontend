@@ -25,7 +25,7 @@ export const Room = ({
 
     if (!name.length || !room.length) history.replace("/");
 
-    const socket = io("http://localhost:5000");
+    const socket = io("https://socket-io-node-chat-app.herokuapp.com/");
     setSocket(socket);
 
     socket.emit("joinRoom", { name, room });
