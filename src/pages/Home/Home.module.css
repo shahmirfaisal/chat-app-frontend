@@ -1,0 +1,17 @@
+.home {
+  padding: 0 1rem;
+}
+
+.heading {
+  margin: 2rem 0;
+  font-size: 1.9rem;
+}
+
+.heading,
+.subHeading {
+  text-align: center;
+}
+
+.subHeading {
+  font-weight: 500;
+}
